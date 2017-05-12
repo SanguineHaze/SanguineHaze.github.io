@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html data-ng-app="sangApp">
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angular Project</title>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/css/design.css" />
+
+</head>
+
+<body>
+    <!-- Top Nav-->
+    <div class="usa-header">
+        <div class="usa-grid-full header-container">
+            <div id="cssmenu">
+                <!-- Once on a database this will be built programatically -->
+                <ul>
+                    <li><a href="/#!/">Home</a></li>
+                    <li><a href="/#!/View1">Hello World</a></li>
+                    <li><a href="/#!/NPCGenerator">NPC Generator</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="home-copy">
+        <div class="usa-main-content">
+            <div data-ng-view=""></div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <!-- Footer Area -->
+    <div class="usa-footer-wrapper">
+        <hr class="style1" />
+
+        <div class="usa-footer-primary-section">
+            <div class="usa-grid">
+                <div class="usa-footer-bottom center">
+                    Designed and developed by SanguineHaze
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load the required things-->
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/myModule.js"></script>
+    <!-- Load your individual apps, these must be after the required things-->
+    <script src="js/NPCGenerator.js"></script>
+</body>
+</html>
