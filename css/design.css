@@ -1,50 +1,4 @@
-﻿/* CUSTOM STUFF
--------------------------------------------------------------- */
-.sang-round-border-inline{
-    border-radius: 25px;
-    background: #DDDDDD;
-    padding: 20px; 
-    width: 100%;
-    height: 100%; 
-    display: inline-block;
-}
-.sang-round-border{
-    border-radius: 25px;
-    background: #DDDDDD;
-    padding: 20px; 
-    width: 100%;
-    height: 100%; 
-}
-.sang-logo {
-  max-width: 280px;
-  display: inline-block;
-}
-
-@media all and (max-width: 1060px) {
-    .sang-logo {
-      max-width: 250px;
-      display: inline-block;
-    }
-}
-
-@media all and (max-width: 840px) {
-    .sang-logo {
-      max-width: 220px;
-      padding:20px 0px 0px 0px;
-      display: inline-block;
-    }
-}
-
-@media all and (max-width: 785px) {
-    .sang-logo {
-      max-width: 300px;
-      padding:0px 0px 0px 0px;
-      margin:auto;
-      display: block;
-    }
-}
-
-/* Old magic I'm not even sure ... maybe comb through this someday? Makes things pretty!
+﻿/* Old magic I'm not even sure ... maybe comb through this someday? Makes things pretty!
 -------------------------------------------------------------- */
 body 
 {
@@ -123,6 +77,52 @@ body
         text-align:center;
     }
 
+}
+
+/* CUSTOM STUFF
+-------------------------------------------------------------- */
+.sang-round-border-inline{
+    border-radius: 25px;
+    background: #DDDDDD;
+    padding: 20px; 
+    width: 100%;
+    height: 100%; 
+    display: inline-block;
+}
+.sang-round-border{
+    border-radius: 25px;
+    background: #DDDDDD;
+    padding: 20px; 
+    width: 100%;
+    height: 100%; 
+}
+.sang-logo {
+  max-width: 280px;
+  display: inline-block;
+}
+
+@media all and (max-width: 1060px) {
+    .sang-logo {
+      max-width: 250px;
+      display: inline-block;
+    }
+}
+
+@media all and (max-width: 840px) {
+    .sang-logo {
+      max-width: 220px;
+      padding:20px 0px 0px 0px;
+      display: inline-block;
+    }
+}
+
+@media all and (max-width: 785px) {
+    .sang-logo {
+      max-width: 300px;
+      padding:0px 0px 0px 0px;
+      margin:auto;
+      display: block;
+    }
 }
 
 /* =Nav
